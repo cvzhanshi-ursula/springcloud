@@ -1,0 +1,17 @@
+package cn.cvzhanshi.springcloud;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.config.server.EnableConfigServer;
+
+/**
+ * @author cVzhanshi
+ * @create 2021-06-29 11:11
+ */
+@SpringBootApplication
+@EnableConfigServer// 开启spring cloud config server服务
+public class Config_Server_3344 {
+    public static void main(String[] args) {
+        SpringApplication.run(Config_Server_3344.class,args);
+    }
+}
